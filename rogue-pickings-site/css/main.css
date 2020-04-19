@@ -1,0 +1,167 @@
+/**** BASE STYLES ****/
+
+@font-face {
+  font-family: 'Wisdom Script';
+  src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/**** GRID ****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width1, .third-width2, .third-width3 {
+    width: 398px;
+    float: left;
+    height: auto;
+    border-top: 1px solid #dedbdc;
+}
+
+
+/**** Header section ****/
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 37px 0;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+nav {
+    float: right;
+    padding: 46px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #77a466;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.welcome-section, .bottom-section {
+    clear: both;
+    margin: 0 auto;
+}
+
+.welcome-section h2 {
+    padding-top: 5px;
+}
+
+.welcome-section p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/**** Bottom section ****/
+
+.third-width1 h4 {
+    padding: 10px 0;
+}
+
+.third-width2 h4, .third-width3 h4 {
+    padding: 10px 30px;
+}
+
+.third-width1 li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 38px;
+    list-style: none;
+    padding: 0;
+}
+
+.third-width2 {
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+
+.third-width2 p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.third-width3 p {
+    line-height: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+footer {
+    border-top: 1px solid #dedbdc;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'Wisdom Script', cursive;
+  font-size: 16px;
+  text-transform: lowercase;
+  line-height: 23px;
+}
